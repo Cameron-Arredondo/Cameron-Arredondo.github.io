@@ -39,9 +39,9 @@ experience:
 
 projects:
   - name: "Gallista Gallery"
-    description: "showcase for local San Antonio artist."
+    description: "FastAPI + Firebase web app showcasing artwork by local San Antonio artist Joe Lopez. Containerized and deployed on Google Cloud Run."
   - name: "Home Lab"
-    description: "Home-lab environment for containerized services and app security testing."
+    description: "Ubuntu-based home lab environment for containerized services and experimentation."
 
 skills:
   - category: "Security"
