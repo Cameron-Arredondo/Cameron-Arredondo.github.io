@@ -48,7 +48,15 @@
         {% endfor %}
       </ul>
     </section>
-
+    <section class="education">
+      <h2>Education</h2>
+      {% for edu in site.data.resume.education %}
+      <div class="education-entry">
+      <h3 class="edu-school">{{ edu.school }} — <em>{{ edu.degree }}</em></h3>
+      <p class="edu-date">{{ edu.date }}</p>
+      </div>
+      {% endfor %}
+    </section>
     <section>
       <h2>Skills</h2>
       <div class="skills-list">

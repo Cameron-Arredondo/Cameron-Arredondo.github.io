@@ -128,3 +128,26 @@ footer {
   color: #777;
   margin-top: 3rem;
 }
+
+/* --- Education Section --- */
+.education-entry {
+  margin-bottom: 1.25rem;
+}
+
+.edu-school {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.1rem;
+}
+
+.edu-degree {
+  font-size: 0.95rem;
+  color: #333;
+  margin: 0;
+}
+
+.edu-date {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.15rem;
+}
