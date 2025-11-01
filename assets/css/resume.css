@@ -130,24 +130,28 @@ footer {
 }
 
 /* --- Education Section --- */
+.education {
+  margin-top: 1.5rem;
+}
+
 .education-entry {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.2rem;
 }
 
-.edu-school {
-  font-size: 1rem;
-  font-weight: 600;
-  margin-bottom: 0.1rem;
+.edu-line {
+  font-size: 0.97rem;        /* smaller than job titles */
+  color: #222;
+  font-weight: 500;          /* softer than 600 */
+  margin: 0 0 0.1rem 0;
 }
 
-.edu-degree {
-  font-size: 0.95rem;
+.edu-line em {
+  font-style: italic;
   color: #333;
-  margin: 0;
 }
 
 .edu-date {
   font-size: 0.9rem;
   color: #666;
-  margin-top: 0.15rem;
+  margin: 0;
 }

@@ -63,10 +63,8 @@ skills:
   - category: "Development"
     items:
       - "Python"
-      - "FastAPI"
       - "Go"
-      - "HTML"
-
+      - "Bash"
 education:
   - school: "University of Texas at San Antonio"
     degree: "B.B.A. in Cybersecurity"
