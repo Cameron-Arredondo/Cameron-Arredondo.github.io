@@ -1,0 +1,130 @@
+/* --- Base Styles --- */
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 16px; /* Improved readability */
+  line-height: 1.6;
+  color: #222;
+  background: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+.resume {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+/* --- Header --- */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.2rem; /* Slightly larger for name prominence */
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  color: #444;
+  font-weight: 500;
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact a {
+  color: #0066cc;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* --- Summary Section --- */
+.summary {
+  margin-bottom: 2.5rem;
+  text-align: left;
+}
+
+.summary h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.75rem;
+  color: #111;
+}
+
+.summary p {
+  font-size: 1.05rem;
+  color: #333;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0;
+}
+
+/* --- Section Headings --- */
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.75rem;
+  color: #111;
+}
+
+/* --- Experience --- */
+article h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.date {
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  margin-top: 0.25rem;
+  padding-left: 1.25rem;
+}
+
+/* --- Skills Section --- */
+.skills-list {
+  margin-top: 1rem;
+}
+
+.skill-line {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.skill-category {
+  font-weight: 600;
+  color: #000;
+}
+
+.skill-item {
+  color: #444;
+}
+
+/* --- Footer --- */
+footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 3rem;
+}

@@ -1,0 +1,68 @@
+name: "Cameron Arredondo"
+title: "Application Security Engineer"
+location: "San Antonio, TX"
+email: "cam.arredondo@outlook.com"
+linkedin: "https://www.linkedin.com/in/cameronantonino/"
+github: "https://github.com/Cameron-Arredondo"
+
+summary: >
+  Application Security Engineer with experience automating security at scale, 
+  building secure infrastructure, and integrating security tools and guidance that 
+  enable developer and business velocity through secure design patterns and automation.
+
+experience:
+  - role: "Application Security Engineer 2"
+    company: "H-E-B Digital Security"
+    date: "July 2024 – Present"
+    bullets:
+      - "Developed automation around mobile security tooling to enhance confidence and prioritization of findings."
+      - "Developed infrastructure in AWS to host internal Vault that serves 1M+ requests/day."
+      - "Researched and developed new patterns that provide scalable security value."
+      - "Developed secure builder patterns focused on secret management."
+      - "Contributed to rolling out and maintaining the organization’s Application Security platform."
+
+  - role: "Application Security Engineer 1"
+    company: "H-E-B Digital Security"
+    date: "September 2022 – July 2024"
+    bullets:
+      - "Performed application security reviews of enterprise applications."
+      - "Led onboarding and evaluation of mobile security tooling for the organization's mobile apps."
+      - "Contribute to security jobs that are extensible and easily integrated into engineers pipelines."
+      - "Enhanced Docker images being used across the org's CI/CD environment."
+
+  - role: "Application Security Engineer Intern"
+    company: "H-E-B Digital Security"
+    date: "May 2022 – August 2022"
+    bullets:
+      - "Assisted in integrating vulnerability scanning pipelines across codebases using automation."
+      - "Contributed to internal cloud security automation that responds to high priority findings."
+
+projects:
+  - name: "Gallista Gallery"
+    description: "showcase for local San Antonio artist."
+  - name: "Home Lab"
+    description: "Home-lab environment for containerized services and app security testing."
+
+skills:
+  - category: "Security"
+    items:
+      - "OWASP Top 10"
+      - "OSS Security Tooling"
+      - "Vault"
+      - "BurpSuite"
+      - "ZAP"
+      - "PKI"
+  - category: "DevOps & Infrastructure"
+    items:
+      - "AWS"
+      - "GCP"
+      - "Docker"
+      - "Terraform"
+      - "Gitlab CI/CD"
+      - "Linux"
+  - category: "Development"
+    items:
+      - "Python"
+      - "FastAPI"
+      - "Go"
+      - "HTML"
