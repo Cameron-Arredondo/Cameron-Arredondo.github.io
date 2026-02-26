@@ -16,10 +16,11 @@ experience:
     date: "July 2024 – Present"
     bullets:
       - "Developed automation around mobile security tooling to enhance confidence and prioritization of findings."
-      - "Developed infrastructure in AWS to host internal Vault that serves 1M+ requests/day."
-      - "Researched and developed new patterns that provide scalable security value."
-      - "Developed secure builder patterns focused on secret management."
+      - "Developed builder patterns that demonstrates usage of SOPS, Vault and Cloud SDKs to use secrets safely in code."
+      - "Developed Python CLI invoked by Google Cloud Run job for certificate automation of service accounts keys in Google Cloud."
+      - "Contributed to building infrastructure in AWS that hosts internal Vault which serves 1M+ requests/day."
       - "Contributed to rolling out and maintaining the organization’s Application Security platform."
+      - "Performed Application Security Reviews of Mobile RFCs, Web Applications and Distributed Systems."
 
   - role: "Application Security Engineer 1"
     company: "H-E-B Digital Security"
@@ -39,7 +40,7 @@ experience:
 
 projects:
   - name: "Gallista Gallery"
-    description: "FastAPI + Firebase web app showcasing artwork by local San Antonio artist Joe Lopez. Containerized and deployed on Google Cloud Run."
+    description: "SvelteKit website hosted on Firebase showcasing artwork by local San Antonio artist Joe Lopez. Containerized and deployed on Google Cloud Run."
   - name: "Home Lab"
     description: "Ubuntu-based home lab environment for containerized services and experimentation."
 
@@ -52,14 +53,16 @@ skills:
       - "BurpSuite"
       - "ZAP"
       - "PKI"
+      - "Cloud Security"
   - category: "DevOps & Infrastructure"
     items:
       - "AWS"
       - "GCP"
-      - "Docker"
+      - "Containerization"
       - "Terraform"
       - "Gitlab CI/CD"
       - "Linux"
+      - "Kubernetes"
   - category: "Development"
     items:
       - "Python"
