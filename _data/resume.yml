@@ -40,9 +40,7 @@ experience:
 
 projects:
   - name: "Gallista Gallery"
-    description: "SvelteKit website hosted on Firebase showcasing artwork by local San Antonio artist Joe Lopez. Containerized and deployed on Google Cloud Run."
-    link: "https://gallistaart.com"
-
+    description: "SvelteKit website hosted on Firebase showcasing artwork by local San Antonio artist Joe Lopez."
 
 skills:
   - category: "Security"
