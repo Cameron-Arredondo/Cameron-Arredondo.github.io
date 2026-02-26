@@ -16,18 +16,19 @@ experience:
     date: "July 2024 – Present"
     bullets:
       - "Developed automation around mobile security tooling to enhance confidence and prioritization of findings."
-      - "Developed infrastructure in AWS to host internal Vault that serves 1M+ requests/day."
-      - "Researched and developed new patterns that provide scalable security value."
-      - "Developed secure builder patterns focused on secret management."
-      - "Contributed to rolling out and maintaining the organization’s Application Security platform."
+      - "Developed builder patterns that demonstrate usage of SOPS, Vault, and Cloud SDKs to use secrets safely in code."
+      - "Developed Python CLI invoked by Google Cloud Run job for certificate automation of service account keys in Google Cloud."
+      - "Contributed to building infrastructure in AWS that hosts an internal Vault, which serves 1M+ requests/day."
+      - "Contributed to rolling out and maintaining the organization’s application security platform."
+      - "Performed Application Security Reviews of Mobile RFCs, web applications and distributed systems."
 
   - role: "Application Security Engineer 1"
     company: "H-E-B Digital Security"
     date: "September 2022 – July 2024"
     bullets:
-      - "Performed application security reviews of enterprise applications."
+      - "Performed Application Security Reviews of enterprise applications."
       - "Led onboarding and evaluation of mobile security tooling for the organization's mobile apps."
-      - "Contribute to security jobs that are extensible and easily integrated into engineers pipelines."
+      - "Contribute to security jobs that are extensible and easily integrated into engineers' pipelines."
       - "Enhanced Docker images being used across the org's CI/CD environment."
 
   - role: "Application Security Engineer Intern"
@@ -39,27 +40,29 @@ experience:
 
 projects:
   - name: "Gallista Gallery"
-    description: "FastAPI + Firebase web app showcasing artwork by local San Antonio artist Joe Lopez. Containerized and deployed on Google Cloud Run."
-  - name: "Home Lab"
-    description: "Ubuntu-based home lab environment for containerized services and experimentation."
+    description: "SvelteKit website hosted on Firebase showcasing artwork by local San Antonio artist Joe Lopez. Containerized and deployed on Google Cloud Run."
+    link: "https://gallistaart.com"
+
 
 skills:
   - category: "Security"
     items:
       - "OWASP Top 10"
-      - "OSS Security Tooling"
+      - "OSS security tooling"
       - "Vault"
       - "BurpSuite"
       - "ZAP"
       - "PKI"
+      - "Cloud Security"
   - category: "DevOps & Infrastructure"
     items:
       - "AWS"
       - "GCP"
-      - "Docker"
+      - "Containerization"
       - "Terraform"
       - "Gitlab CI/CD"
       - "Linux"
+      - "Kubernetes"
   - category: "Development"
     items:
       - "Python"
